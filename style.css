@@ -1,0 +1,160 @@
+body{
+    
+    margin: 0px;
+}
+h1{
+    text-align: center;
+    color: #fdfdfd;
+    margin: 0px;
+    background-image: linear-gradient(#484e57, #60677c, #484e57);
+    padding: 35px 0px;
+}
+.money div{
+   background-color:#ffffff; 
+}
+.money h3{
+    color:#131313;
+    text-align: center;
+    font-size: 35px; 
+}
+.money input{
+  border: 1px solid #e8e6e6;
+  padding: 10px 0px;
+  font-size: 1px;
+  border-radius: 100px;
+  width: 118px;
+  height: 34px;
+  
+}
+.money input[type='number']{
+    font-size: 34px;
+    text-align: center;
+}
+.total{
+    background-color: #f0e3cd;
+    width: 100% ;
+    height: 235px;
+
+}
+.total p{
+    text-align: center;
+    font-size: 65px;
+    color: #000000;
+    padding: 68px 10px;
+}
+.total input{
+    background-color: #f0e3cd;
+    border: 1px solid #f0e3cd;
+    border: 1px solid #e8e6e6;
+    padding: 10px 0px;
+    width: 86px;
+
+}
+.total  input[type='number']{
+    color: #ed462f;
+    font-size: 70px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+} 
+main{
+    display: flex;
+    background-image: linear-gradient(#484e57, #60677c, #484e57);
+    justify-content: center;
+}  
+.apple-stall{
+    margin: 30px 0px;
+}
+.apple-stall h4{
+background-color: #346e34;
+color: white;
+}
+.apple-stall div{
+    background-color: #f3f3f3
+}
+.orange-stall{
+    margin: 30px 70px;
+}
+.orange-stall h4{
+    background-color: #346e34;
+    color: white;
+}
+.orange-stall div{
+    background-color: #f3f3f3;
+}
+.banana-stall{
+    margin: 30px 0px;
+}
+.banana-stall h4{
+    background-color: #346e34;
+    color: white;
+}
+.banana-stall div{
+    background-color: #f3f3f3
+}
+.quantity{
+    text-align: center;
+    width: 9vh;
+    padding: 7px 0px;
+    border: 1px solid;
+    border-right-style: none;
+    border-left-style: none;
+    border-color: #c8c7c7;
+    background-image: linear-gradient(#c8c7c7,#fdfdfd)
+}
+main img{
+    height: 175px;
+}
+h4{
+    padding: 10px;
+    margin: 10px 0px 0px 0px 
+}
+h5{
+    margin: 0px;
+    text-align: center;
+}
+.total ::placeholder {
+    color: red;
+    opacity: 1; /* Firefox */
+}
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: red;
+}
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+   color: red;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pick{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    border-radius: 13px;
+}
+button.plus {
+    border: 1px solid;
+    padding: 7px;
+    border-right-style: none;
+    background-color: #3f4544;
+    border-radius: 12px 0px 0px 12px;
+}
+button.minus {
+    border: 1px solid;
+    padding: 7px;
+    border-left-style: none;
+    background-color: #3f4544;
+    border-radius: 0px 12px 12px 0px;
+}
+button.minus i{
+    color: #ffffff;
+}
+button.plus i{
+    color: #ffffff;
+}

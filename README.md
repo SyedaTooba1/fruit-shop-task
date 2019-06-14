@@ -1,1 +1,1 @@
-# fruit-shop-task
+# fruit-shop
