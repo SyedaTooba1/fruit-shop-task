@@ -18,7 +18,7 @@ h1{
     font-size: 35px; 
 }
 .money input{
-  border: 1px solid #e8e6e6;
+  border: 2px solid #e8e6e6;
   padding: 10px 0px;
   font-size: 1px;
   border-radius: 100px;
@@ -29,6 +29,9 @@ h1{
 .money input[type='number']{
     font-size: 34px;
     text-align: center;
+}
+span{
+    color: red;
 }
 .total{
     background-color: #f0e3cd;
@@ -94,22 +97,54 @@ color: white;
 .banana-stall div{
     background-color: #f3f3f3
 }
-.quantity{
+.app-quantity{
     text-align: center;
     width: 9vh;
     padding: 7px 0px;
     border: 1px solid;
     border-right-style: none;
     border-left-style: none;
-    border-color: #c8c7c7;
+    
     background-image: linear-gradient(#c8c7c7,#fdfdfd)
+}
+.orng-quantity{
+    text-align: center;
+    width: 9vh;
+    padding: 7px 0px;
+    border: 1px solid;
+    border-right-style: none;
+    border-left-style: none;
+    
+    background-image: linear-gradient(#c8c7c7,#fdfdfd)
+}
+.bana-quantity{
+    text-align: center;
+    width: 9vh;
+    padding: 7px 0px;
+    border: 1px solid;
+    border-right-style: none;
+    border-left-style: none;
+    
+    background-image: linear-gradient(#c8c7c7,#fdfdfd)
+}
+.quantity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 main img{
     height: 175px;
 }
+.apple-stall div{
+    padding: 0px 17px;
+}
+.banana-stall div{
+    padding: 0px 10px;
+}
 h4{
     padding: 10px;
-    margin: 10px 0px 0px 0px 
+    margin: 10px 0px 0px 0px ;
+    text-align: center;
 }
 h5{
     margin: 0px;
@@ -135,7 +170,6 @@ h5{
 .pick{
     display: flex;
     justify-content: center;
-    border: 1px solid;
     border-radius: 13px;
 }
 button.plus {
@@ -157,4 +191,17 @@ button.minus i{
 }
 button.plus i{
     color: #ffffff;
+}
+
+@media only screen and (max-width: 860px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }
+    .orange-stall{
+        margin: 20px 0px 0px 0px;
+    }
+    .banana-stall{
+        margin: 20px 0px 0px 0px;
+    }
 }

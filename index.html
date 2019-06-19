@@ -16,12 +16,13 @@
         <h1> FRUIT SHOP </h1>
     </header>
     <section class="money">
-        <div>
-            <h3>I have Rs.<input type="number" min="1"></h3>
+        <div class="quantity">
+            <h3>I have Rs.</h3>
+             <input type="number" class="qty-2" min=0 onmouseout="values()">
         </div>
     </section>
     <div class="total">
-        <p>your total is Rs. <span></span></p>
+        <p>your total is Rs. <span id="totalbill"></span></p>
     </div>
 
     <main>
@@ -32,9 +33,9 @@
                 <div class="item">
                     <h5>Apple</h5>
                     <div class="pick">
-                            <button class="plus"><i class="fas fa-plus"></i></button>
-                            <input type="number" class="quantity" min="0" value="0">
-                            <button class="minus"><i class="fas fa-minus"></i></button>
+                            <button onclick="addApple()" class="plus"><i class="fas fa-plus"></i></button>
+                            <input type="number" class="app-quantity" min="0" value="0">
+                            <button onclick="minusApple()" class="minus"><i class="fas fa-minus"></i></button>
                         </div>
                 </div>
             </div>
@@ -46,9 +47,9 @@
                 <div class="item">
                     <h5>Orange</h5>
                     <div class="pick">
-                            <button class="plus"><i class="fas fa-plus"></i></button>
-                            <input type="number" class="quantity" min="0" value="0">
-                            <button class="minus"><i class="fas fa-minus"></i></button>
+                            <button onclick="addOrange()" class="plus"><i class="fas fa-plus"></i></button>
+                            <input type="number" class="orng-quantity" min="0" value="0">
+                            <button onclick="minusOrange()" class="minus"><i class="fas fa-minus"></i></button>
                         </div>
                 </div>
             </div>
@@ -60,15 +61,16 @@
                 <div class="item">
                     <h5>Banana</h5>
                     <div class="pick">
-                        <button class="plus"><i class="fas fa-plus"></i></button>
-                        <input type="number" class="quantity" min="0" value="0">
-                        <button class="minus"><i class="fas fa-minus"></i></button>
+                        <button onclick="addBanana()" class="plus"><i class="fas fa-plus"></i></button>
+                        <input type="number" class="bana-quantity" min="0" value="0">
+                        <button onclick="minusBanana()" class="minus"><i class="fas fa-minus"></i></button>
                     </div>
                 </div>
             </div>
         </section>
 
     </main>
+    <script src="script.js"></script>
 </body>
 
 </html>
