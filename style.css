@@ -69,33 +69,39 @@ main{
 }  
 .apple-stall{
     margin: 30px 0px;
+    background-color: #ffffff;
 }
 .apple-stall h4{
 background-color: #346e34;
 color: white;
+margin-top: 0;
 }
 .apple-stall div{
-    background-color: #f3f3f3
+    background-color: #ffffff;
 }
 .orange-stall{
     margin: 30px 70px;
+    background-color: #ffffff;
 }
 .orange-stall h4{
     background-color: #346e34;
     color: white;
+    margin-top: 0;
 }
 .orange-stall div{
-    background-color: #f3f3f3;
+    background-color: #ffffff;
 }
 .banana-stall{
     margin: 30px 0px;
+    background-color: #ffffff;
 }
 .banana-stall h4{
     background-color: #346e34;
     color: white;
+    margin-top: 0;
 }
 .banana-stall div{
-    background-color: #f3f3f3
+    background-color: #ffffff;
 }
 .app-quantity{
     text-align: center;
@@ -132,6 +138,7 @@ color: white;
     justify-content: center;
     align-items: center;
 }
+
 main img{
     height: 175px;
 }
@@ -162,14 +169,19 @@ h5{
   ::-ms-input-placeholder { /* Microsoft Edge */
    color: red;
 }
+.img-div{
+    background-color: #ffffff;
+}
 .item{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #ffffff;
 }
 .pick{
     display: flex;
     justify-content: center;
+    background-color: #ffffff;
     border-radius: 13px;
 }
 button.plus {
